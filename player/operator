@@ -1,0 +1,43 @@
+#include<stdio.h>
+int main(void)
+{
+int b,c,a,s,m,d,mo,ch;
+printf("1.add\nsub\n3.mul\n4.div\n5.mod\n");
+scanf("%d",ch);
+switch(ch);
+{
+case 1:
+	{
+    a=b+c;
+    printf("%d",a);
+    break;
+    }
+case 2:
+	{
+    s=b-c;
+    printf("%d",s);
+    break;
+    }
+case 3:
+	{
+    m=b*c;
+    printf("%d",m);
+    break;
+    }
+case 4:
+	{
+    d=b/c;
+    printf("%d",d);
+    break;
+    }
+case 5:
+	{
+    mo=b%c;
+    printf("%d",mo);
+    break;
+    }
+default:
+	{
+    printf("wrong");
+    break;
+    }
