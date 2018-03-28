@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <string.h>
+
+int main(void) {
+	int n,i;
+	char a[200]="hello";
+	scanf("%d",&n);
+	for(i=0;i<n;i++){
+	printf("%s\n",a);
+	}
+	return 0;
+}
