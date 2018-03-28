@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(void) {
+	char n;
+	scanf("%c",&n);
+	if((n>='a' && n<='z') || (n>='A' && n<='Z'))
+	{
+		printf("alphabets");
+		
+	}
+	else
+	{
+		printf("number");
+		
+	}
+	return 0;
+}
